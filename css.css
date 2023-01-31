@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: chocolate;
+    background-color: aliceblue;
+}
+
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+
+header> .title{
+    margin-bottom: 1rem;
+}
+
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: yellow;
+    color: deeppink;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.bio>h2{
+    margin-bottom: 1.2rem;
+    font-size: 3rem;
+    line-height: 1.4;
+}
+
+.bio>hr{
+    margin-top: 2rem;
+}
